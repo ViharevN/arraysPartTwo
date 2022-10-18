@@ -27,7 +27,15 @@ public class Main {
         }
         System.out.println("Минимальная сумма трат за день составила "+ minSpending +" рублей. Максимальная сумма трат за день составила "+ maxSpending +" рублей");
 
-
+        //задание 3
+        double summ = 0;//сумма общая
+        double mean = 0;//среднее значение, получаем от деления суммы на количество элементов массива
+        for (int i = 0; i < arr.length; i++) {
+            summ += arr[i];
+            mean = summ/arr.length;
+        }
+        System.out.println("Общая сумма трат за месяц составила "+summ+" рублей");
+        System.out.println("Средняя сумма трат за месяц составила "+mean+" рублей");
 
 
     }
