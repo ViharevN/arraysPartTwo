@@ -38,6 +38,18 @@ public class Main {
         System.out.println("Средняя сумма трат за месяц составила "+mean+" рублей");
 
 
+        //задание 4
+
+        char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i = reverseFullName.length-1 ; i >= 0; i--) {
+            System.out.print(reverseFullName[i]);
+        }
+        //int i = reverseFullName.length-1 инициализируем цикл с последнего элемента массива,
+        // указываем, что индекс не может быть меньше 0 и включаем счетчик i-- в обратную сторону
+        //выводим элементы в обратном порядке
+
+
+
     }
     public static int[] generateRandomArray() {
         Random random = new Random();
